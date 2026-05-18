@@ -3,6 +3,7 @@ body{
     padding: 0;
 
     font-family: Arial, sans-serif;
+
     text-align: center;
 
     background-image: url("kdu.jpg");
@@ -24,7 +25,7 @@ body{
 
     padding: 60px;
 
-    width: 80%;
+    width: 85%;
     max-width: 1200px;
 
     border-radius: 25px;
@@ -37,29 +38,29 @@ body{
 h1{
     color: #0044cc;
 
-    font-size: 55px;
+    font-size: 60px;
 
-    margin-bottom: 30px;
+    margin-bottom: 35px;
 }
 
 p{
-    font-size: 28px;
+    font-size: 30px;
 
     color: #222;
 
-    line-height: 1.8;
+    line-height: 1.9;
 
     font-weight: 500;
 }
 
 nav{
-    margin: 40px 0;
+    margin: 45px 0;
 
     display: flex;
 
     justify-content: center;
 
-    gap: 35px;
+    gap: 40px;
 
     flex-wrap: wrap;
 }
@@ -67,21 +68,23 @@ nav{
 nav a{
     text-decoration: none;
 
-    padding: 15px 35px;
+    padding: 18px 40px;
 
-    background-color: #0044cc;
+    background-color: white;
 
-    color: white;
+    color: #0044cc;
 
-    border-radius: 12px;
+    border-radius: 14px;
 
     font-weight: bold;
 
-    font-size: 24px;
+    font-size: 28px;
 
     transition: 0.3s;
 
     box-shadow: 0px 4px 10px rgba(0,0,0,0.3);
+
+    border: 2px solid #0044cc;
 }
 
 nav a:hover{
