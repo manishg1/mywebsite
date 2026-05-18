@@ -76,6 +76,8 @@ nav a{
 
     border-radius: 14px;
 
+    border: 2px solid #0044cc;
+
     font-weight: bold;
 
     font-size: 28px;
@@ -83,8 +85,6 @@ nav a{
     transition: 0.3s;
 
     box-shadow: 0px 4px 10px rgba(0,0,0,0.3);
-
-    border: 2px solid #0044cc;
 }
 
 nav a:hover{
